@@ -1,15 +1,27 @@
 fileFormatVersion: 2
-guid: 7f402f70b373c40eaada1860c49c3f28
-timeCreated: 1446496661
+guid: 55bd10899c0b44bbb8fabbc1bfbfcae1
+timeCreated: 1446498378
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Maze_Floor
+    100004: Maze_Roof
+    100006: Maze_Walls
     400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Maze
+    400002: Maze_Floor
+    400004: Maze_Roof
+    400006: Maze_Walls
+    2300000: Maze_Floor
+    2300002: Maze_Roof
+    2300004: Maze_Walls
+    3300000: Maze_Floor
+    3300002: Maze_Roof
+    3300004: Maze_Walls
+    4300000: Maze_Walls
+    4300002: Maze_Roof
+    4300004: Maze_Floor
     7400000: Default Take
     9500000: //RootNode
   materials:
