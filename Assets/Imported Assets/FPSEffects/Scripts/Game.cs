@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GameController : MonoBehaviour {
+public class Game : MonoBehaviour {
 
 	public Transform[]  barrelSpawnPoints;
 	public GameObject[]	barrels;

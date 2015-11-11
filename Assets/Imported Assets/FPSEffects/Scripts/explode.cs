@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class explode : MonoBehaviour {
@@ -8,14 +8,14 @@ public class explode : MonoBehaviour {
 	public float health;
 
 	private bool bExploded;
-	private GameController	gameController;
+	private Game	gameController;
 
 	void Awake()
 	{
 		bExploded = false;
 
 		GameObject goTemp = GameObject.FindGameObjectWithTag ("GameController");
-		gameController = goTemp.GetComponent<GameController> ();
+		gameController = goTemp.GetComponent<Game> ();
 	}
 
 	void Update () 

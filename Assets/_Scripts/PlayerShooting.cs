@@ -13,6 +13,8 @@ public class PlayerShooting : MonoBehaviour {
 	public AudioSource bulletImpactSound;
 	public GameObject explosion;
 
+	public GameController gameController;
+
 	// PRIVATE INSTANCE VARIABLES
 	private GameObject[] _impacts;
 	private int _currentImpact = 0;
@@ -20,6 +22,8 @@ public class PlayerShooting : MonoBehaviour {
 
 	private bool _shooting = false;
 	private Transform _transform;
+
+
 
 
 	// Use this for initialization
@@ -61,6 +65,7 @@ public class PlayerShooting : MonoBehaviour {
 					// Destroy Barrel object upon hit
 					Destroy (hit.transform.gameObject);
 					Instantiate(this.explosion, hit.point, Quaternion.identity);
+					this.gameController.Score += 100;
 				}
 
 
