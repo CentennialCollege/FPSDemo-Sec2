@@ -9,6 +9,7 @@ public class PlayerShooting : MonoBehaviour {
 	public ParticleSystem muzzleflash;
 	public GameObject impact;
 	public Animator animator;
+	public AudioSource bulletFireSound;
 
 	// PRIVATE INSTANCE VARIABLES
 	private GameObject[] _impacts;
@@ -33,6 +34,7 @@ public class PlayerShooting : MonoBehaviour {
 	void Update () {
 			if (CrossPlatformInputManager.GetButtonDown ("Fire1")) {
 				this.muzzleflash.Play ();
+				this.bulletFireSound.Play();
 				animator.SetTrigger ("Fire");
 				this._shooting = true;
 			}
@@ -42,7 +44,24 @@ public class PlayerShooting : MonoBehaviour {
 
 	}
 
+	// physics update
 	void FixedUpdate() {
 
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

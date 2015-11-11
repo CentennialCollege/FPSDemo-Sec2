@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../FPSDemo-Sec1/Assets/_Scripts/PlayerShooting.cs">
+    <Files>
+      <File FileName="../FPSDemo-Sec1/Assets/Imported Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" Line="3" Column="1" />
+      <File FileName="../FPSDemo-Sec1/Assets/_Scripts/PlayerShooting.cs" Line="38" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
